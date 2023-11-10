@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+</head>
+<body>
+    <h1>EJERCICIO #8</h1>
+    <p>5. Se visualizarán elementos HTML haciendo uso del sitio web https://jsfiddle.net/
+    </p>
+    <p>• Escribir el documento HTML y las reglas CSS necesarias para visualizar el siguiente texto
+        en el navegador.</p>
+    <hr>
+        <section id="punto8">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Edad</th>
+                        <th>Peso</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>40</td>
+                            <td>78</td>
+                        </tr>
+                        <tr>
+                            <td>53</td>
+                            <td>76</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">En el momento en que entiendo verdaderamente a mi enemigo,
+                                en el momento en que le entiendo lo suficientemente bien como para
+                                derrotarle, entonces, en ese preciso instante, también le quiero
+                            </td>
+                        </tr>
+                    </tbody>
+                </thead>
+            </table>
+        </section>
+    <hr>
+    <a href="../index.html">Volver a la página principal</a>
+</body>
+</html>
+
+<style>
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    section{
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }  
+
+    #punto8 table{
+        background-color: yellow;
+        padding: 0px;
+        border-style: dotted dotted dashed dotted;
+        border-color: black black red black;
+        border: 1px 1px;
+    }
+    #punto8 table th::first-letter{
+        font-weight: bold;
+    }
+    #punto8 table th{
+        color: red;
+        font-style: italic;
+        border: none;
+    }
+    #punto8 table td{
+        padding: 0px;
+        border: 1px dotted black;
+    }
+
+</style>
